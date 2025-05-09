@@ -52,7 +52,7 @@ To get started with the Railway Management System project locally, follow these 
 ### 1. **Clone the Repository** 📥
 First, clone this project to your local machine using the following command:
 ```bash
-git clone https://github.com/your-username/railway-management-system.git
+git clone https://github.com/GJBarhate/Railway-Management-System.git
 ```
 
 ### 2. **Navigate to Project Directory** 🗂️
@@ -110,12 +110,3 @@ Set up your MySQL (or any other relational database) locally. Make sure your dat
 - **JWT** for secure authentication.
 
 ---
-
-## Contact 📬
-- **Your Name**: Pratik Sindhiya
-- **Email**: [pratiksindhiya@gmail.com](mailto:pratiksindhiya@gmail.com)
-- **GitHub Profile**: [github.com/PRATIKSINDHIYA](https://github.com/PRATIKSINDHIYA)
-- **LinkedIn**: [linkedin.com/in/pratiksindhiya](https://www.linkedin.com/in/pratiksindhiya/)
-
----
-
