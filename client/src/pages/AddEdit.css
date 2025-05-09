@@ -1,0 +1,131 @@
+/* Enhanced styles for AddEdit component */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('generate\ Train\ \ 8810c3d0-be7b-44a5-a785-c11af646107a.png');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    margin: 60px auto;
+    animation: slideIn 0.5s ease-out forwards;
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+input[type="text"], input[type="time"], select {
+    width: calc(100% - 24px);
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus, input[type="time"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0,123,255,0.1);
+}
+
+input[type="submit"], input[type="button"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+input[type="button"] {
+    background-color: #6c757d;
+}
+
+input[type="button"]:hover {
+    background-color: #565e64;
+}
+
+/* Adjust link style inside the form */
+a {
+    text-decoration: none;
+    color: #007bff;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.logo img{
+    width: 200px;
+    height: 71px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0277BD; /* Dark blue shade */
+    padding: 20px;
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #BBDEFB; /* Light blue shade */
+}
+.logo img{
+    width: 200px;
+    height: 71px;
+}
+.Welcome{
+    color: white;
+}

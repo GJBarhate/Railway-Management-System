@@ -1,0 +1,177 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* General body styles with improved typography and overlay for readability */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(rgba(253, 191, 191, 0.5), rgba(0, 0, 0, 0.5)), url('https://i2.wp.com/travelobservations.com/wp-content/uploads/2021/04/Scenic-train-rides-Switzerland-Bernina-scaled.jpg?resize=1800%2C1200&ssl=1') no-repeat center center fixed; 
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --toastify-color-light: #fff;
+    --toastify-color-dark: #121212;
+    --toastify-color-info: #3498db;
+    --toastify-color-success: #07bc0c;
+    --toastify-color-warning: #f1c40f;
+    --toastify-color-error: #e74c3c;
+    --toastify-color-transparent: rgba(255, 255, 255, 0.7);
+    --toastify-icon-color-info: var(--toastify-color-info);
+    --toastify-icon-color-success: var(--toastify-color-success);
+    --toastify-icon-color-warning: var(--toastify-color-warning);
+    --toastify-icon-color-error: var(--toastify-color-error);
+    --toastify-toast-width: 320px;
+    --toastify-toast-offset: 16px;
+    --toastify-toast-top: max(var(--toastify-toast-offset), env(safe-area-inset-top));
+    --toastify-toast-right: max(var(--toastify-toast-offset), env(safe-area-inset-right));
+    --toastify-toast-left: max(var(--toastify-toast-offset), env(safe-area-inset-left));
+    --toastify-toast-bottom: max(var(--toastify-toast-offset), env(safe-area-inset-bottom));
+    --toastify-toast-background: #fff;
+    --toastify-toast-min-height: 64px;
+    --toastify-toast-max-height: 800px;
+    --toastify-toast-bd-radius: 6px;
+    --toastify-font-family: sans-serif;
+    --toastify-z-index: 9999;
+    --toastify-text-color-light: #757575;
+    --toastify-text-color-dark: #fff;
+    --toastify-text-color-info: #fff;
+    --toastify-text-color-success: #fff;
+    --toastify-text-color-warning: #fff;
+    --toastify-text-color-error: #fff;
+    --toastify-spinner-color: #616161;
+    --toastify-spinner-color-empty-area: #e0e0e0;
+    --toastify-color-progress-light: linear-gradient(to right, #4cd964, #5ac8fa, #007aff, #34aadc, #5856d6, #ff2d55);
+    --toastify-color-progress-dark: #bb86fc;
+    --toastify-color-progress-info: var(--toastify-color-info);
+    --toastify-color-progress-success: var(--toastify-color-success);
+    --toastify-color-progress-warning: var(--toastify-color-warning);
+    --toastify-color-progress-error: var(--toastify-color-error);
+    --toastify-color-progress-bgo: 0;
+    height: 100%;
+}
+
+/* Styling for the main table container */
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px auto;
+    font-size: 0.95em;
+    width: 95%;
+    max-width: 1200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.styled-table thead tr {
+    background-color: #0277BD; /* Dark blue shade */
+    text-align: left;
+    font-weight: 500;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 14px;
+    text-align: center;
+}
+
+.styled-table tbody tr {
+    background-color: #ffffff;
+    color: #333333;
+    transition: transform 0.3s ease;
+}
+
+.styled-table tbody tr:hover {
+    background-color: #f1f1f1;
+    transform: scale(1.02);
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f9f9f9;
+}
+
+/* Enhance buttons with subtle shadows and transitions */
+.btn {
+    background-color: #1565C0;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.2s;
+    margin: 4px;
+}
+
+.btn:hover {
+    background-color: #0D47A1;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: translateY(-2px);
+}
+
+.btn-edit {
+    background-color: #2E7D32; /* Green */
+}
+
+.btn-delete {
+    background-color: #D32F2F; /* Red */
+}
+
+.btn-view {
+    background-color: #FFA000; /* Amber */
+}
+
+.btn-contact {
+    background-color: #6A1B9A; /* Deep Purple */
+}
+
+/* Sticky header with more pronounced shadow */
+.styled-table thead th {
+    position: sticky;
+    top: 0;
+    background-color: #0277BD;
+    z-index: 10;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+}
+
+
+
+/* Home.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0277BD; /* Dark blue shade */
+    padding: 20px;
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #BBDEFB; /* Light blue shade */
+}
+.logo img{
+    width: 200px;
+    height: 71px;
+}
+.Welcome{
+    color: white;
+}
